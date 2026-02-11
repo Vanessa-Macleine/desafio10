@@ -1,5 +1,7 @@
 <?php
-$status= 'teste';
+if($_SERVER["REQUEST_METHOD"]== "POST"){
+    
+$satus = $_POST['status'];
 
 
 
@@ -33,6 +35,7 @@ switch ($status) {
      echo " Operação Inválida";
      break;
         
+}
 }
 
 ?>

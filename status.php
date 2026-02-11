@@ -1,5 +1,5 @@
 <?php
-$status= 'entregue';
+$status= 'teste';
 
 
 
@@ -27,6 +27,11 @@ switch ($status) {
     case 'cancelado':
         echo " Pedido Cancelado";
         break;
+
+    
+     default:
+     echo " Operação Inválida";
+     break;
         
 }
 

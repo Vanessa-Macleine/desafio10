@@ -1,11 +1,10 @@
 <?php
-<<<<<<< HEAD
-$status= 'pendente';
-=======
+
+
 if($_SERVER["REQUEST_METHOD"]== "POST"){
     
-$satus = $_POST['status'];
->>>>>>> e3e7a32c8b179a87ef0a8710e7139fadc32a9070
+$status = $_POST['status'];
+
 
 
 
